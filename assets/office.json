@@ -1,0 +1,20 @@
+{
+  "name": "Домиан Новочеркасск Октябрьский",
+  "shortName": "Новочеркасск · Октябрьский",
+  "address": "г. Новочеркасск, ул. Калинина, 65б",
+  "shortAddress": "Калинина, 65б",
+  "phone": "+7 951 519-55-59",
+  "phoneHref": "+79515195559",
+  "owner": "Андрей Сафронов",
+  "ownerPhoto": "assets/images/andrey-safronov-business.webp",
+  "ownerPhotoWidth": 1122,
+  "ownerPhotoHeight": 1402,
+  "legalName": "ИП Лебедев Никита Сергеевич",
+  "inn": "615015517925",
+  "ogrnip": "312618310200032",
+  "mapUrl": "https://yandex.com/maps/org/domian/29846074984/",
+  "teamPhoto": "assets/images/office-inside.jpg",
+  "frontPhoto": "assets/images/office-front.jpg",
+  "previewUrl": "http://127.0.0.1:4176/",
+  "siteUrl": "https://lesauteur.github.io/NovOkt/"
+}
