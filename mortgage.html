@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ипотека в Новочеркасске — Домиан Новочеркасск Октябрьский</title>
+  <meta name="description" content="Ипотечные сценарии для квартиры, дома, участка и новостройки в Новочеркасске: что подготовить и какие факторы влияют на решение банка.">
+  <link rel="stylesheet" href="assets/css/demo-novocherkassk.css">
+  <link rel="stylesheet" href="assets/css/tools.css">
+<link rel="stylesheet" href="assets/css/place.css"><meta name="robots" content="noindex,follow"><link rel="canonical" href="https://lesauteur.github.io/NovOkt/mortgage.html"><meta property="og:url" content="https://lesauteur.github.io/NovOkt/mortgage.html"></head>
+<body class="place-legacy">
+  <a class="skip-link" href="#main-content">Перейти к содержанию</a><header class="p-header"><div class="wrap p-header__row"><a class="brand" href="index.html" aria-label="Домиан Новочеркасск Октябрьский — главная"><span class="brand-mark" aria-hidden="true">Д</span><span><b>Домиан</b><small>Новочеркасск · Октябрьский</small></span></a><nav class="p-nav" id="place-nav" aria-label="Основная навигация"><a href="catalog.html" >Недвижимость</a><a href="districts/index.html" >Районы</a><a href="sell.html" >Продать</a><a href="budget.html" >Бюджет переезда</a><a href="team.html" >Об офисе</a><a class="saved-nav" href="catalog.html?saved=1">Избранное <span class="saved-count" data-saved-count>0</span></a></nav><a class="header-contact" href="tel:+79515195559" aria-label="Позвонить в офис: +7 951 519-55-59"><small>Обсудить задачу</small>+7 951 519-55-59</a><button class="nav-button" type="button" aria-controls="place-nav" aria-expanded="false" aria-label="Открыть меню">☰</button></div></header>
+  <main id="main-content">
+    <section class="hero-cover hero-mortgage"><div class="hero-cover__overlay"></div><div class="container hero-cover__content"><span class="eyebrow">Ипотека</span><h1>Ипотечные сценарии без лишних обещаний</h1><p class="lead">Ипотека для квартиры, дома, участка и новостройки начинается с исходных данных покупателя, параметров объекта и спокойной подготовки к разговору с банком.</p><div class="btn-row"><a class="btn" href="#calc">Рассчитать платёж</a><a class="btn btn--ghost" href="contacts.html#request">Обсудить сценарий</a></div></div></section>
+    <section class="section" id="calc" aria-labelledby="calc-title">
+      <div class="container">
+        <div class="section-heading"><span class="eyebrow">Калькулятор</span><h2 id="calc-title">Рассчитайте ежемесячный платёж</h2><p class="lead">Подставьте стоимость объекта, взнос и ставку из предложения банка — расчёт обновится сразу.</p></div>
+        <div class="mcalc" data-mortgage>
+          <div class="mcalc__inputs">
+            <div class="mcalc__row">
+              <label for="mc-price">Стоимость объекта</label>
+              <div class="mcalc__input"><input id="mc-price" name="price" inputmode="numeric" value="5000000"><span>₽</span></div>
+              <input type="range" data-for="price" min="500000" max="20000000" step="50000" aria-label="Стоимость объекта">
+            </div>
+            <div class="mcalc__row">
+              <label for="mc-down">Первоначальный взнос <small data-out="downpct"></small></label>
+              <div class="mcalc__input"><input id="mc-down" name="down" inputmode="numeric" value="1000000"><span>₽</span></div>
+              <input type="range" data-for="down" min="0" max="10000000" step="50000" aria-label="Первоначальный взнос">
+              <div class="mcalc__chips"><button type="button" data-down-pct="20">20%</button><button type="button" data-down-pct="30">30%</button><button type="button" data-down-pct="50">50%</button></div>
+            </div>
+            <div class="mcalc__row">
+              <label for="mc-years">Срок кредита</label>
+              <div class="mcalc__input"><input id="mc-years" name="years" inputmode="numeric" value="20"><span>лет</span></div>
+              <input type="range" data-for="years" min="1" max="40" step="1" aria-label="Срок кредита">
+            </div>
+            <div class="mcalc__row">
+              <label for="mc-rate">Процентная ставка <small>из предложения банка</small></label>
+              <div class="mcalc__input"><input id="mc-rate" name="rate" inputmode="decimal" value="" placeholder="Введите ставку"><span>% годовых</span></div>
+              <input type="range" data-for="rate" min="0" max="35" step="0.1" aria-label="Процентная ставка">
+            </div>
+          </div>
+          <div class="mcalc__result" aria-live="polite">
+            <div>
+              <p class="mcalc__result-label">Ежемесячный платёж</p>
+              <p class="mcalc__pay" data-out="pay">—</p>
+            </div>
+            <div>
+              <div class="mcalc__bar"><span data-bar-loan></span></div>
+              <div class="mcalc__legend"><span><i></i>Тело кредита</span><span><i class="is-over"></i>Проценты</span></div>
+            </div>
+            <dl class="mcalc__facts">
+              <div><dt>Сумма кредита</dt><dd data-out="loan">—</dd></div>
+              <div><dt>Переплата по процентам</dt><dd data-out="over">—</dd></div>
+              <div><dt>Всего с учётом взноса</dt><dd data-out="total">—</dd></div>
+              <div><dt>Ориентир дохода семьи</dt><dd data-out="income">—</dd></div>
+            </dl>
+            <p class="mcalc__note">Аннуитетный расчёт для ориентира. Ориентир дохода — сумма, при которой платёж занимает не больше половины дохода. Точные условия, страхование и требования банка уточняются при подготовке сделки.</p>
+            <a class="btn" href="contacts.html#request">Обсудить ипотечный сценарий</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="feature-grid"><article class="feature-card"><h3>Ипотека для квартиры</h3><p>Частый сценарий для первой покупки, переезда или обмена на более удобный формат.</p></article><article class="feature-card"><h3>Ипотека для дома</h3><p>Требует внимательнее смотреть на сам объект, землю и юридическую структуру сделки.</p></article><article class="feature-card"><h3>Участок и строительство</h3><p>Такие сценарии возможны не всегда и зависят от банка, типа земли и параметров будущего проекта.</p></article><article class="feature-card"><h3>Новостройка</h3><p>Часто рассматривается вместе со сроками сдачи, типом договора и программами банка.</p></article></div>
+      </div>
+    </section>
+    <section class="section section--soft">
+      <div class="container info-grid">
+        <article class="panel"><div class="section-heading"><h2>Что подготовить заранее</h2></div><ul class="check-list"><li>Паспорт и базовые личные данные.</li><li>Подтверждение дохода и понимание ежемесячной нагрузки.</li><li>Размер первоначального взноса.</li><li>Семейное положение и важные сопутствующие обстоятельства.</li><li>Параметры объекта или хотя бы желаемый формат покупки.</li><li>Общую кредитную историю и действующие обязательства.</li></ul></article>
+        <article class="panel"><div class="section-heading"><h2>Что влияет на решение банка</h2></div><p>Обычно учитываются доход, долговая нагрузка, первоначальный взнос, кредитная история, тип объекта и общая структура сделки. Поэтому ипотечный сценарий полезно оценивать не абстрактно, а вместе с конкретной задачей покупки.</p><div class="inline-links"><a href="apartments.html">Квартиры</a><a href="houses.html">Дома</a><a href="newbuilds.html">Новостройки</a></div></article>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><h2>FAQ по ипотеке</h2></div>
+        <div class="faq">
+          <article class="faq-item"><h3>Можно ли заранее оценить ипотечный сценарий?</h3><p>Да, предварительно можно понять общий диапазон возможностей, если известны доход, взнос и желаемый тип объекта.</p></article>
+          <article class="faq-item"><h3>Что влияет на решение банка?</h3><p>Доход, долговая нагрузка, первоначальный взнос, кредитная история и характеристики объекта.</p></article>
+          <article class="faq-item"><h3>Можно ли купить новостройку в ипотеку?</h3><p>Да, это один из частых сценариев, но условия зависят от программы банка и выбранного проекта.</p></article>
+          <article class="faq-item"><h3>Можно ли купить дом или участок?</h3><p>Такие сценарии возможны, но они обычно требуют более внимательной проверки объекта и условий банка.</p></article>
+        </div>
+        <div class="cta-strip" style="margin-top:24px;"><h3>Хотите понять, с чего начать?</h3><p>Можно сначала описать бюджет и тип недвижимости, а затем перейти к разговору о возможной ипотечной модели без обещаний гарантированного результата.</p><div class="btn-row"><a class="btn" href="contacts.html">Контакты</a><a class="btn btn--ghost" href="services.html">Услуги</a></div></div>
+      </div>
+    </section>
+    <section class="prefooter-cover"><div class="prefooter-cover__overlay"></div><div class="container prefooter-cover__content"><span class="eyebrow">Ипотека</span><h2>Хороший ипотечный сценарий начинается с честных исходных данных</h2><p class="lead">Чем понятнее задача, объект и бюджет, тем легче собрать реалистичную схему покупки и разговора с банком.</p><div class="btn-row"><a class="btn" href="contacts.html">Связаться с офисом</a><a class="btn btn--ghost" href="newbuilds.html">Посмотреть новостройки</a></div></div></section>
+  </main>
+  <footer class="p-footer"><div class="wrap"><div class="p-footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">Д</span><span><b>Домиан</b><small>Новочеркасск · Октябрьский</small></span></a><p>Недвижимость в своём городе.<br>Выбор места, объекта и понятного следующего шага.</p></div><div><h3>Выбрать недвижимость</h3><ul><li><a href="apartments.html">Квартиры и комнаты</a></li><li><a href="houses.html">Дома</a></li><li><a href="lands.html">Участки</a></li><li><a href="newbuilds.html">Новостройки</a></li><li><a href="commercial.html">Коммерция</a></li><li><a href="rent.html">Аренда</a></li></ul></div><div><h3>Сделать следующий шаг</h3><ul><li><a href="districts/index.html">Выбрать район</a></li><li><a href="sell.html">Продать недвижимость</a></li><li><a href="budget.html">Рассчитать переезд</a></li><li><a href="mortgage.html">Ипотечный калькулятор</a></li><li><a href="construction.html">Строительство</a></li><li><a href="career.html">Работа агентом</a></li></ul></div><div><h3>Офис на Калинина</h3><ul><li>г. Новочеркасск, ул. Калинина, 65б</li><li><a href="tel:+79515195559">+7 951 519-55-59</a></li><li><a href="contacts.html">Контакты и реквизиты ↗</a></li><li><a href="team.html">Команда</a></li></ul></div></div><div class="footer-bottom"><span>© 2026 Домиан · Новочеркасск. ИП Лебедев Никита Сергеевич</span><a href="privacy.html">Политика конфиденциальности</a><span>Цены и наличие уточняются перед просмотром</span></div></div></footer>
+  <script src="assets/js/tools.js"></script>
+<div class="toast" role="status" hidden></div><script src="assets/js/place-data.js"></script><script src="assets/js/place.js"></script></body>
+</html>

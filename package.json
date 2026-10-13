@@ -1,0 +1,10 @@
+{
+  "name": "domian-novocherkassk-oktyabrsky",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-place.mjs",
+    "dev": "node scripts/serve.mjs",
+    "qa": "node --check assets/js/place.js && node --check assets/js/place-data.js && node --check assets/js/tools.js && node scripts/verify-place.mjs"
+  }
+}
